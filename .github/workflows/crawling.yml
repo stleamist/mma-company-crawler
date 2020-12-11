@@ -1,6 +1,8 @@
 name: Crawling
 
 on:
+  schedule:
+    - cron: '0 0,9 * * *'
   workflow_dispatch:
 
 jobs:
